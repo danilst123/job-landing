@@ -1,0 +1,22 @@
+.form-grid
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  align-items: flex-end
+
+  @media screen and (max-width: 459px)
+    flex-direction: column
+    align-items: stretch
+    justify-content: flex-start
+
+  &:last-child
+    margin-bottom: -12px
+
+  .fieldset
+    width: calc(50% - 5px)
+
+    @media screen and (max-width: 459px)
+      width: 100%
+
+    &:last-child
+      margin-bottom: 12px

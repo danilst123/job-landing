@@ -1,0 +1,10 @@
+# folder logs
+node_modules/
+
+#txt-files
+.sublime-gulp.cache
+package-lock.json
+.sublime-gulp.cache
+gulpfile.js
+yarn.lock
+package.json
